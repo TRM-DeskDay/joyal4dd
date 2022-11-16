@@ -1,0 +1,32 @@
+{
+    "tickets": {
+        "headers": [
+            {"key": "ticket-header-1", "value": "customer", "label": "Customer", "show": true},
+            {"key": "ticket-header-2", "value": "user", "label": "User", "show": true},
+            {"key": "ticket-header-3", "value": "summary", "label": "Summary", "show": true},
+            {"key": "ticket-header-4", "value": "ticketId", "label": "Ticket ID", "show": true}
+        ],
+        "data": [
+            {
+                "key": "ticket-key-1",
+                "ticket_id": 7124076,
+                "summary": "this ticket is a new ticket 19/10",
+                "notes": "testing a new ticket again 19/10",
+                "billable": "1",
+                "tags": "1",
+                "budgeted_hours": "1",
+                "actual_hours": "1",
+                "duration": "1",
+                "board_name": "on-site",
+                "status_name": "scheduled",
+                "priority_name": "p0",
+                "sla_status_name": null,
+                "owner_name": null,
+                "ticket_type_name": "network",
+                "work_type_name": "remote",
+                "ticket_number": "ST091420225686519"
+            }
+        ]
+    }
+    
+}
