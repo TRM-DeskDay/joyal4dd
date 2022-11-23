@@ -1,0 +1,261 @@
+/* Table css*/
+
+.tablemain {
+    border-spacing: 0px;
+}
+
+.table-head {
+    background-color: #EEEEEE;
+    color: #5C5C5C;
+}
+
+.table-head th, td {
+    padding: 9px;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+.headername {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 0.8rem;
+    gap:8px;
+}
+
+.headername svg {
+    vertical-align: middle;
+    font-size: 1.2rem;
+    color: #A1A1A1;
+}
+
+.selectbookmark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4em;
+}
+
+.sortdata:hover , .selectdata:hover , .selectdata:target {
+    background: #E5E5E5;
+}
+
+.selectbookmark svg {
+    vertical-align: middle;
+    color: #171D41;
+}
+
+.selectandoverbg {
+    background-color: #F5F5F5;
+}
+
+.d-none {
+    opacity: 0;
+}
+
+.d-block {
+    opacity: 1;
+}
+
+.tableactionbtn {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.tableactionbtn svg {
+    vertical-align: middle;
+    color: #5C677F;
+    width: 1.2rem;
+    height: 0.8rem;
+}
+
+.sortdata, .selectdata {
+    cursor: pointer;
+}
+
+.tablecelldata {
+    color: #697691;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.selectbookmark .css-355xbt-MuiButtonBase-root-MuiCheckbox-root {
+    padding: 0;
+    width: 1em !important;
+    height: 1em !important;
+    font-size: 1.5rem !important;
+    color: #171D41;
+}
+
+.checkboxhead {
+    display: flex;
+    align-items: center;
+    padding: 0 !important;
+}
+
+.selectone {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 25px 10px 6px;
+    gap: 0.6em;
+    cursor: pointer;
+}
+
+.selectone:hover{
+    background-color: #E9E9E9;
+}
+
+.selectone .css-355xbt-MuiButtonBase-root-MuiCheckbox-root {
+    padding: 2px;
+}
+
+.selectone svg {
+    color: #171D41;
+}
+
+.selectone h6 {
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: #5C677F;
+}
+
+.checkboxhead svg {
+    color: #171D41;
+}
+
+.withphoto {
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+}
+
+.withphoto img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+}
+
+.withbackground {
+    background-color: #E8E9EB;
+    padding: 4px;
+    width: 30px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.headingclose {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.searchheading {
+    padding: 15px;
+    position: relative;
+}
+
+.searchheading input {
+    padding: 10px;
+    width: 100%;
+    border: 2px solid #E9E9E9;
+    border-radius: 10px;
+    color: #BEBEBE;
+    font-weight: 500;
+    font-size: 1rem;
+    padding-left: 30px;
+}
+
+.searchicon svg {
+    color: #5C677F;
+    vertical-align: middle;
+    width: 2rem;
+    height: 1.3rem;
+}
+
+.searchicon {
+    position: absolute;
+    top: 0;
+    margin-top: 25px;
+}
+
+.selectedfields {
+    padding: 15px;
+    padding-top: 0px;
+}
+
+.selectedfields h4 {
+    color: #4D5165;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.listsitems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0px;
+    cursor: pointer;
+}
+
+.listsitems:first-child{
+    margin: 0px;
+}
+
+.listsitems h5 {
+    color: #5C677F;
+    font-weight: 500;
+}
+
+.trueicon {
+    display: flex;
+    justify-content: center;
+}
+
+.trueicon svg {
+    vertical-align: middle;
+    width: 2rem;
+    height: 1.4rem;
+}
+
+.sfdown{
+    padding-top: 15px;
+}
+
+.d-none{
+    display: none;
+}
+
+.d-show{
+    display: block;
+}
+
+.actionicon{
+    display:flex;
+    justify-content: center;
+}
+
+.actionicon svg {
+    vertical-align: middle;
+}
+
+.tablemain .css-1ps6pg7-MuiPaper-root{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+.MuiMenu-list{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+}
+
+.bookmarkicon{
+    display: flex;
+}
+
+.sixdotsicon{
+    display: flex;
+}
+
+.sixdotsicon svg{
+    vertical-align: middle;
+}

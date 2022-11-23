@@ -1,0 +1,63 @@
+.addheaderbtn {
+    background-color: #DFDFDF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.addheaderbtn svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: #5C677F;
+    vertical-align: middle;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation16.MuiDrawer-paper.MuiDrawer-paperAnchorRight.css-1160xiw-MuiPaper-root-MuiDrawer-paper {
+    width: 350px !important;
+}
+
+.css-1hskriy {
+    width: 350px !important;
+}
+
+.closeicon {
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    border-radius: 5px;
+}
+
+.closeicon:hover {
+    background-color: #F1F2F4;
+}
+
+.closeicon svg {
+    color: #5C677F;
+    vertical-align: middle;
+}
+
+.headingclose h2 {
+    color: #4D5165;
+}
+
+.closeicon {
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    border-radius: 5px;
+}
+
+.closeicon:hover {
+    background-color: #F1F2F4;
+}
+
+.closeicon svg {
+    color: #5C677F;
+    vertical-align: middle;
+}
+
+.headingclose h2 {
+    color: #4D5165;
+}
